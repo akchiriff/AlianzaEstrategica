@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background: rgba(21, 34, 43, 0.85);
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -428,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(13, 20, 26, 0.7);
+ /* background: rgba(13, 20, 26, 0.7);*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -847,7 +848,7 @@ section {
 .clients {
   background: #f0f4f8;
   padding: 15px 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .clients img {
